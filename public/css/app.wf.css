@@ -1,0 +1,347 @@
+body {
+  background-color: #f3f6f9;
+  font-family: Lato, sans-serif;
+  color: #566270;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+a {
+  color: #99bcf8;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.header {
+  padding: 1.5rem;
+  background-color: #fff;
+  box-shadow: 0 0 8px 0 hsla(210, 4%, 79%, .8);
+  text-align: center;
+}
+
+.logo {
+  height: 1.625rem;
+}
+
+.main-content-wrapper {
+  max-width: 90rem;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 2.8125rem 2.13rem 2.8125rem 2.125rem;
+}
+
+.list {
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 6px 0 hsla(210, 4%, 79%, .8);
+}
+
+.list-title-wrapper {
+  padding: 0.9375rem;
+  border-style: none none solid;
+  border-color: #dedbdb;
+  border-bottom-width: 1px;
+}
+
+.list-content {
+  position: relative;
+  padding: 1.25rem 1.25rem 3.125rem;
+}
+
+.list-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #99bcf8;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+  text-align: center;
+}
+
+.card {
+  display: block;
+  margin-bottom: 0.9375rem;
+  padding: 1.25rem;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 5px 1px hsla(210, 4%, 79%, .8);
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+}
+
+.card:hover {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.card-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #566270;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.add-card-btn {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  bottom: -1.6875rem;
+  display: inline-block;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  text-align: center;
+}
+
+.add-card-btn img {
+  height: 3.5rem;
+}
+
+.add-card-btn:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.modal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: block;
+  overflow: scroll;
+  height: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: hsla(216, 8%, 63%, .6);
+}
+
+.modal-content {
+  position: relative;
+  max-width: 51.25rem;
+  margin: 5.25rem auto;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.modal-content.small {
+  max-width: 31.25rem;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: -1.6875rem;
+  right: -1.6875rem;
+}
+
+.close-modal-btn img {
+  height: 3.5rem;
+}
+
+.modal-header {
+  padding: 2rem;
+  border-bottom: 1px solid #dedbdb;
+}
+
+.modal-header.no-border {
+  border-bottom-style: none;
+  border-bottom-width: 0px;
+}
+
+.modal-title {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1.5rem;
+  line-height: 1.8125rem;
+}
+
+.modal-subtitle {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.modal-section {
+  padding: 2rem;
+}
+
+.modal-section.main {
+  min-height: 18rem;
+  border-right: 1px solid #dedbdb;
+}
+
+.modal-description {
+  max-width: 37.5rem;
+  margin-top: 0.875rem;
+  margin-bottom: 0px;
+  color: #9aa0a9;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  font-weight: 300;
+}
+
+.modal-section-title {
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+}
+
+.icon-link {
+  display: block;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.icon-link-label {
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1rem;
+  line-height: 1.1875rem;
+}
+
+.icon-link-label.red {
+  color: #f89999;
+}
+
+.comment-form {
+  padding: 0.375rem;
+  clear: both;
+  border: 1px solid #dedbdb;
+  border-radius: 5px;
+}
+
+.comment-input {
+  display: block;
+  width: 80%;
+  height: 1.9375rem;
+  margin-bottom: 0px;
+  padding: 0.5rem;
+  float: left;
+  border-style: none;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+.comment-form-submit {
+  float: right;
+  background: none;
+}
+
+.comment-form-submit-icon {
+  height: 1.875rem;
+}
+
+.comment-item {
+  margin-top: 2rem;
+}
+
+.comment-item-description {
+  margin-bottom: 0px;
+  color: #9aa0a9;
+  font-size: 1rem;
+  line-height: 1.3125rem;
+  font-weight: 300;
+}
+
+.comment-item-date {
+  margin-top: 0.3125rem;
+  color: #9aa0a9;
+  font-size: 0.75rem;
+  line-height: 0.9375rem;
+}
+
+.modal-open {
+  overflow: hidden;
+}
+
+.input {
+  height: 2.6875rem;
+  padding: 0.875rem;
+  border: 1px solid #dedbdb;
+  border-radius: 5px;
+}
+
+.input.textarea {
+  width: 100%;
+  min-height: 7.5rem;
+}
+
+.submit-button {
+  display: inline-block;
+  margin-top: 1.25rem;
+  float: right;
+  clear: none;
+  -webkit-transition: -webkit-transform 500ms ease;
+  transition: -webkit-transform 500ms ease;
+  transition: transform 500ms ease;
+  transition: transform 500ms ease, -webkit-transform 500ms ease;
+  text-align: center;
+  background: none;
+}
+
+.submit-button img {
+  height: 3.5rem;
+}
+
+.submit-button:hover {
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+}
+
+.form {
+  clear: both;
+}
+
+.form-wrapper {
+  margin-bottom: 0px;
+}
+
+.highlight-text {
+  color: #99bcf8;
+}
+
+.highlight-text.red {
+  color: #f89999;
+}
+
+.tag {
+  display: inline-block;
+  margin-right: 0.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #99bcf8;
+  border-radius: 5px;
+  -webkit-transition: background-color 500ms ease, color 500ms ease;
+  transition: background-color 500ms ease, color 500ms ease;
+  color: #566270;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.tag:hover {
+  background-color: #99bcf8;
+  color: #fff;
+}

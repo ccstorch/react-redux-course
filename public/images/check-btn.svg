@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="56px" height="56px" viewBox="0 0 56 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>check-btn</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="check-btn">
+            <g id="Group-2-Copy" fill="#99BCF8">
+                <circle id="Oval" cx="28" cy="28" r="28"></circle>
+            </g>
+            <polyline id="Tick" stroke="#FFFFFF" stroke-width="2" points="12 28 27 43 44 13"></polyline>
+        </g>
+    </g>
+</svg>
